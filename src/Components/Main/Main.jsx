@@ -17,7 +17,7 @@ export default function Main(){
             <div className="main-container">
                 {!showResult ? <>
                     <div className="greet">
-                    <p><span>Hello, Dev.</span></p>
+                    <p><span>Hello, there.</span></p>
                     <p>How can I help you today?</p>
                 </div>
                 <div className="cards">
