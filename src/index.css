@@ -1,0 +1,23 @@
+/* Index.css => import google font , sets padding and margin 0 to allow component to prevent default and have their own styling */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  padding :0;
+  margin :0;
+   box-sizing: border-box;
+   font-family: Outfit;
+}
+#root{
+  min-height:100vh;
+  display: flex;
+  animation: fadeIn 1.5s;
+}
+/* Animation for sidebar and Main component whenever app is  reloaded */
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
